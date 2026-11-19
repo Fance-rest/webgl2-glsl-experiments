@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071b20">
+  <title>潮汐干涉 · WebGL2 实验</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main>
+    <canvas aria-label="随时间和指针位置变化的双色干涉波纹"></canvas>
+    <footer>
+      <div><h1>潮汐干涉</h1><p id="hint">移动指针或轻触画布，改变波源位置。</p></div>
+      <button type="button" disabled>暂停动画</button>
+    </footer>
+    <p id="status" role="status" hidden></p>
+    <noscript>请启用 JavaScript 以运行 WebGL2 演示。</noscript>
+  </main>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
